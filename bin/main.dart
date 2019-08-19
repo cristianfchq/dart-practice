@@ -8,5 +8,7 @@ main(){
 printNumber(int number){
   print('el numero es: ${number}');
 
+  print('el numero es: ${number.toString()}');
+
   print('el numero es: ' + number.toString());
 }
